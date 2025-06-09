@@ -1,0 +1,53 @@
+/* Base Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #f8f8f8;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #0066cc;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Book title styling */
+.book-title {
+    font-style: italic;
+}
+
+/* Heading colors */
+h1 { color: #2c3e50; }
+h2 { color: #34495e; }
+h3 { color: #7f8c8d; }
