@@ -1,0 +1,21 @@
+.book-review {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.book-cover {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+.review-content p {
+    line-height: 1.5;
+}
+
+.rating {
+    font-weight: bold;
+    color: #e67e22;
+}

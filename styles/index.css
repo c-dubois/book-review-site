@@ -1,0 +1,18 @@
+.book-list ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book-list img {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.book-list img:hover {
+    transform: scale(1.05);
+}
